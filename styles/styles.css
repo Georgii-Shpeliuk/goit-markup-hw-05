@@ -11,6 +11,7 @@
     --background-section-employees: #f5f4fa;
     --icon-main-color: #AFB1B8;
     --time-transition: 250ms;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 p,
@@ -123,6 +124,7 @@ img {
     padding: 10px 0px;
     position: relative;
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .header-link:hover,
@@ -155,6 +157,7 @@ img {
     display: flex;
     align-items: center;
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 
@@ -223,6 +226,7 @@ img {
     padding: 10px 32px;
     border: none;
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .hero-btn:hover,
@@ -393,6 +397,7 @@ img {
     justify-content: center;
     fill: var(--icon-main-color);
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .employees-soc-link:hover,
@@ -420,6 +425,7 @@ img {
     border: 1px solid var(--icon-main-color);
     border-radius: 4px;
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .clients-soc-item:last-child {
@@ -499,6 +505,7 @@ img {
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .footer-contacts:hover,
@@ -602,6 +609,7 @@ img {
     padding: 6px 22px;
     border: none;
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .portfolio-item:not(:last-child) {
@@ -625,6 +633,7 @@ img {
     flex-basis: calc(100% / 3 - 30px);
     margin: 15px;
     transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .portfolio-projects-item:hover .projects-top-text {
