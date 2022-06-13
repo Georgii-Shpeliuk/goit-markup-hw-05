@@ -446,6 +446,8 @@ img {
     align-items: center;
     justify-content: center;
     fill: var(--icon-main-color);
+    transition-duration: var(--time-transition);
+    transition-timing-function: var(--timing-function);
 }
 
 .clients-soc-link:hover,
